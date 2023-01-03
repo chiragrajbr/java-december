@@ -6,7 +6,7 @@ package p1;
 		 b1 a=new b1();
 		 a.m1();
 		
-	}
+	} 
 	public void m1(){
 		System.out.println("gmm");
 		}
