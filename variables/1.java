@@ -18,4 +18,4 @@ class Ok{
 	static int b=20;
 	
 	
-}
+}                                                      

@@ -1,4 +1,5 @@
 //outside class
+//private cant be accessed
 package p1;
 public class a2{
 	public static void main(String args[]){
