@@ -5,6 +5,7 @@ class ok{
 		int [] b={1,2,5};
 		int n=a.length;
 		int m=b.length;
+		//for finding same length
 		if(n==m){
 			System.out.println("arrays are equal");
 		}
