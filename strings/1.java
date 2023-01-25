@@ -5,3 +5,4 @@ class ok{
 		System.out.println(a);
 	}
 }
+
