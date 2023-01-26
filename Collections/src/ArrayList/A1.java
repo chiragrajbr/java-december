@@ -10,7 +10,10 @@ public static void main(String args[]) {
 	a.add(2);
 	a.add(3);
 	System.out.println(a);
-	
+	for(Object no:a) {
+		System.out.println(no);
+		//iterating
+	}
 	//now adding elements to b variable
 	ArrayList b=new ArrayList();
 	b.addAll(a);
