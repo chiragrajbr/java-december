@@ -15,7 +15,11 @@ public class M2 {
     //  a.clear(); // to clear all]
 	Iterator b=a.entrySet().iterator();
 	while(b.hasNext()) {
-		System.out.println(b.next());
+	System.out.println(b.next());
 	}
+	
+//	for (Object k:a.entrySet()) {
+//		System.out.println(k);
+//	}
    }
 }
