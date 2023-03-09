@@ -4,6 +4,7 @@ package StreamAPI;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class S1 {
 public static void main(String args[]) {
@@ -13,11 +14,8 @@ public static void main(String args[]) {
 	 		a.add("darshu");
 	 		a.add("manju");
 	 		//System.out.println(a);	 
-	 		//a.stream().forEach((names)->{System.out.println(names);});
-	 		a.stream().filter(x->x.startsWith("c")).forEach(y->System.out.println(y));
-	 		//System.out.println(b);
+	 		a.stream().forEach((names)->{System.out.println(names);});
+	 		a.stream().filter(x->x.startsWith("c")).forEach(y->System.out.println("the name starts with c is "+y));
 	 	
-	 		
-	 		
 }
 }
