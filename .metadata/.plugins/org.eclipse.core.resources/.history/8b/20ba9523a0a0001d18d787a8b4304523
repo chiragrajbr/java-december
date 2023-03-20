@@ -1,0 +1,15 @@
+package Set;
+
+import java.util.LinkedHashSet;
+
+public class S2 {
+
+	public static void main(String[] args) {
+		LinkedHashSet a = new LinkedHashSet();
+		a.add(10);
+		a.add(20);
+		System.out.println(a);
+
+	}
+
+}

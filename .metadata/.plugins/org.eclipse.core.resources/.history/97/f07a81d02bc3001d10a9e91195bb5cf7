@@ -1,0 +1,24 @@
+package jdbcex;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.mysql.jdbc.Statement;
+
+public class jdbc1 {
+
+	
+
+	public static void main(String[] args) {
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/dbone","root","Chirag9591!");
+			Statement st=con.createStatement();
+			
+			}
+		catch(Exception e) {
+			System.out.println(e);
+	}
+}
+}

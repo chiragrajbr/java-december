@@ -1,0 +1,17 @@
+//stream API - 1.8 onwards
+//achive - using  stream method
+package StreamAPI;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class S1 {
+public static void main(String args[]) {
+	 List   a=new ArrayList();
+			a.add("muni");
+	 		a.add("chirag");
+	 		a.add("darshu");
+	 		System.out.println(a);	 
+	 		a.stream()
+}
+}

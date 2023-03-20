@@ -1,0 +1,24 @@
+package jdbcex;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class jdbc1 {
+
+	public static void main(String[] args) {
+		
+		try {
+			//import driver intermediate
+			Class.forName("com. mysql. cj. jdbc.");
+			//get connection using drive manager
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sonoo","root","Chirag9591!");
+			// create statement
+			statement st = con.create Statement();
+			st.executeUpdate("create table emp1()");
+			
+			}
+		catch(Exception e) {
+			System.out.println(e);
+	}
+}
+}

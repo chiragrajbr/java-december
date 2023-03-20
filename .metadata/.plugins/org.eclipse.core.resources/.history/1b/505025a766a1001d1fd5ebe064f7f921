@@ -1,0 +1,39 @@
+// interface in abstract level,in this every method should be used in child level otherwise it shows error
+package Interface;
+
+interface parent{
+	abstract void m1();
+	abstract void m2();
+}
+
+class child1 implements parent{
+	 public void m1() {
+		 System.out.println("implementing m1 in child1");
+	 }
+	 public void m2() {
+		 System.out.println("implementing m2 in child1");
+		 
+	 }
+	 
+}
+
+class child2 implements parent{
+	public void m1(){
+		System.out.println("implementing m1 in child2");
+	}
+	public void m2(){
+		System.out.println("implementing m2 in child2");
+	}
+	
+}
+public class I1 {
+
+	public static void main(String[] args) {
+		child1 a=new child1();
+		child2 b=new child2();
+		a.m1();
+		a.m2();
+		b.m1();
+		b.m2();
+		}
+	}

@@ -1,0 +1,21 @@
+package Interface;
+
+interface test{
+	default m1();
+	default m2();
+}
+
+
+class test1 implements test{
+	public default void m1() {
+		System.out.println("ok");
+	}
+}
+public class I3 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

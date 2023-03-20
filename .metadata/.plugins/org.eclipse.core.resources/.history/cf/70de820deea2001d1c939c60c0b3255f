@@ -1,0 +1,16 @@
+package Predefined;
+interface boo{
+	abstract boolean m1(int a);
+}
+
+
+public class Boolean1 {
+
+	public static void main(String[] args) {
+	boo i= (int a)->{return a<100;};
+	System.out.println(i.m1(10));
+	
+
+	}
+
+}

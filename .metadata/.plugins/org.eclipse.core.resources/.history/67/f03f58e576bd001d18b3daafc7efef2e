@@ -1,0 +1,15 @@
+package StreamAPI;
+
+import java.util.ArrayList;
+
+public class S1 {
+public  void main(String args[]) {
+	 ArrayList <String> a=new ArrayList();
+			a.add("muni");
+	 		a.add("chirag");
+	 		a.add("darshu");
+	 		for(String name : a) {
+	 			System.out.println(name);
+	 		}
+}
+}
