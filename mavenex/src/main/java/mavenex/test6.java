@@ -17,6 +17,7 @@ public class test6 {
 			}
 		catch(Exception e) {
 			System.out.println(e);
+			
 		}
 
 	}
