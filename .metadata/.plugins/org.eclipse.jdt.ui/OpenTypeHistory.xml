@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+    <typeInfo handle="=springproduct/C:\/Users\/chirag\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.0.4\/spring-data-jpa-3.0.4.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.0.4=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1680325182179"/>
     <typeInfo handle="=springboot/C:\/Users\/chirag\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/3.0.5\/spring-boot-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.boot=/=/maven.artifactId=/spring-boot=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.boot(CommandLineRunner.class[CommandLineRunner" modifiers="1537" timestamp="1679898984938"/>
 </typeInfoHistroy>
