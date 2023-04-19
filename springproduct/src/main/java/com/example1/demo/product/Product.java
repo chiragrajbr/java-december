@@ -1,10 +1,11 @@
 package com.example1.demo.product;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Product {
-
+	@Id
 	private int id;
 	private String name;
 	private int price;
@@ -36,12 +37,7 @@ public class Product {
 
 	
 	
-	public Product(int id,String name,int price) {
-		super();
-		this.id=id;
-		this.name=name;
-		this.price=price;
-	} 
+	
 	
 }
 

@@ -12,14 +12,22 @@ public class MyRunner implements CommandLineRunner {
 
 		@Autowired
 		ProductRepository repo;
+
+		@Override
+		public void run(String... args) throws Exception {
+			// TODO Auto-generated method stub
+			
+			 Product p=new Product();
+			 p.setId(101);
+			 p.setName("vivo");
+			 p.setPrice(10000);
+			 
+			 repo.save(p);
+			
+		}
 		
-	@Override
-	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
+	
 		
-		repo.save(new Product(101,"chirag",1234));
-		System.out.println("executed");
-		
-	}
+	
 
 }
